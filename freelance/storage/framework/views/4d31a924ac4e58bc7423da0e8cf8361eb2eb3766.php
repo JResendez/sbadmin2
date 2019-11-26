@@ -119,3 +119,4 @@
     </div>
 
 </ul>
+<?php /**PATH /opt/lampp/htdocs/fin/freelance/resources/views/sidebars/sidebarAdmin.blade.php ENDPATH**/ ?>

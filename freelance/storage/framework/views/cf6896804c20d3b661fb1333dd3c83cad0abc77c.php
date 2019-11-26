@@ -1,5 +1,4 @@
-@extends('base')
-@section('contenido')
+<?php $__env->startSection('contenido'); ?>
 
 <template v-if="menu==0">
     <dashboard></dashboard>
@@ -50,4 +49,5 @@
 </template>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('base', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /opt/lampp/htdocs/fin/freelance/resources/views/contenido/contenido.blade.php ENDPATH**/ ?>

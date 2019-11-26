@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
 
 
 <head>
@@ -28,7 +28,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        @include('sidebars/sidebarAdmin')
+        <?php echo $__env->make('sidebars/sidebarAdmin', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -38,11 +38,11 @@
             <div id="content">
 
                 <!-- Topbar -->
-                @include('sidebars/topbar')
+                <?php echo $__env->make('sidebars/topbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                @yield('contenido')
+                <?php echo $__env->yieldContent('contenido'); ?>
                 <!-- /.container-fluid -->
 
             </div>
@@ -105,3 +105,4 @@
 
 
 </html>
+<?php /**PATH /opt/lampp/htdocs/fin/freelance/resources/views/base.blade.php ENDPATH**/ ?>
