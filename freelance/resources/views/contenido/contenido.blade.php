@@ -6,23 +6,24 @@
 </template>
 
 <template v-if="menu==1">
-    <h1>item 1</h1>        
+    <metodo_retiro></metodo_retiro>        
 </template>
 
 <template v-if="menu==2">
-    <h1>item 2</h1>
+
+  <solicitudes_retiro></solicitudes_retiro>    
 </template>
 
-<template v-if="menu==3">
-    <h1>item 3</h1>        
+<template v-if="menu==3">   
+    <log_retiro> </log_retiro> 
 </template>
 
 <template v-if="menu==4">
-    <h1>item 4</h1>        
+    <metodos_pago></metodos_pago>
 </template>
 
 <template v-if="menu==5">
-    <h1>item 5</h1>        
+    <log_pagos></log_pagos>
 </template>
 
 <template v-if="menu==6">
@@ -34,7 +35,7 @@
 </template>
 
 <template v-if="menu==8">
-    <h1>item 8</h1>        
+    <tablero></tablero>
 </template>
 
 <template v-if="menu==9">
@@ -46,7 +47,7 @@
 </template>
 
 <template v-if="menu==11">
-    <h1>item 10</h1>        
+    <h1>item 11</h1>        
 </template>
 
 

@@ -3,9 +3,9 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
-    <div class="sidebar-brand-icon rotate-n-15">
+    <!--<div class="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-laugh-wink"></i>
-    </div>
+    </div>-->
     <div class="sidebar-brand-text mx-3">Sistema Freelancer</div>
     </a>
 
@@ -36,7 +36,7 @@
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
         <!--<h6 class="collapse-header">Custom Components:</h6>-->
-        <a @click="menu=1" class="collapse-item" href="#">Metodos de pago</a>
+        <a @click="menu=1" class="collapse-item" href="#">Metodos de retiro</a>
         <a @click="menu=2" class="collapse-item" href="#">Solicitudes de retiro</a>
         <a @click="menu=3" class="collapse-item" href="#">Log de retiros</a>
         </div>
@@ -54,7 +54,7 @@
     <li @click="menu=5" class="nav-item">
     <a class="nav-link" href="#">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Historial de retiros</span></a>
+        <span>Historial de pagos</span></a>
     </li>
 
     <!-- Divider -->

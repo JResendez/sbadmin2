@@ -23,13 +23,11 @@ const mix = require('laravel-mix');
         'resources/plantilla/vendor/jquery/jquery.min.js',
         'resources/plantilla/vendor/bootstrap/js/bootstrap.bundle.min.js',
         'resources/plantilla/vendor/jquery-easing/jquery.easing.min.js',
-        
-        'resources/plantilla/vendor/datatables/jquery.dataTables.js',
-        'resources/plantilla/vendor/datatables/dataTables.bootstrap4.js',
 
         'resources/plantilla/js/sb-admin-2.min.js',
         'resources/plantilla/js/sb-admin-2.js',
-       'resources/plantilla/js/demo/datatables-demo.js'
+      
+        
         
     ], 'public/js/plantilla.js')
     .js(['resources/js/app.js'],'public/js/app.js');

@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('contenido/contenido');
 });
+
+Route::get('/usuarios/listaUsuarios', 'usuariosController@selectUsuarios');
